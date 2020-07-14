@@ -8,26 +8,26 @@
 
 import UIKit
 
-let MSWIDTH = UIScreen.main.bounds.width
-let MSHIGHT = UIScreen.main.bounds.height
+public let MSWIDTH = UIScreen.main.bounds.width
+public let MSHIGHT = UIScreen.main.bounds.height
 
-let RED_COLOR = UIColor.init(hex: "#fd5353")
+public let RED_COLOR = UIColor.init(hex: "#fd5353")
 
-let LINE_COLOR = UIColor.init(hex: "#c9d5db")
+public let LINE_COLOR = UIColor.init(hex: "#c9d5db")
 
-let BLACE_COLOR = UIColor.init(hex: "#3a3a3a")
+public let BLACE_COLOR = UIColor.init(hex: "#3a3a3a")
 
-let GRAY_COLOR = UIColor.gray
+public let GRAY_COLOR = UIColor.gray
 
-let WHITE_COLOR = UIColor.white
+public let WHITE_COLOR = UIColor.white
 
-let TABLE_BACKGROUND_COLOR = UIColor.groupTableViewBackground
+public let TABLE_BACKGROUND_COLOR = UIColor.groupTableViewBackground
 
-var FONT_12 = UIFont.systemFont(ofSize: 12)
+public let FONT_12 = UIFont.systemFont(ofSize: 12)
 
-let FONT_14 = UIFont.systemFont(ofSize: 14)
+public let FONT_14 = UIFont.systemFont(ofSize: 14)
 
-let FONT_16 = UIFont.systemFont(ofSize: 16)
+public let FONT_16 = UIFont.systemFont(ofSize: 16)
 
 
 extension UIColor {

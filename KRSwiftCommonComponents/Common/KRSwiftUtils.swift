@@ -8,7 +8,7 @@
 
 import UIKit
 
-class KRSwiftUtils: NSObject {
+public class KRSwiftUtils: NSObject {
     // 创建label通用方法
     public static func creatCommentLabel( color:UIColor, font:UIFont, _ textAlignment: NSTextAlignment ) -> (UILabel) {
         let label = UILabel.init();
