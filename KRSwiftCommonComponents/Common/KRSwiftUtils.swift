@@ -66,7 +66,7 @@ class KRSwiftUtils: NSObject {
 
 // 返回整数三位逗号隔开，保留三位小数
 extension String {
-    func numberStr() -> String {
+   public func numberStr() -> String {
         //原始值
         let number = NSNumber(value: Double(self)!)
         
